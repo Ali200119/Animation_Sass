@@ -17,7 +17,6 @@ header .up {
 header .up .box {
   width: 85%;
   display: flex;
-  justify-content: space-between;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -96,31 +95,37 @@ header .down {
   background-color: #3d3f42;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-header .down .catalog {
+header .down .box {
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+header .down .box .catalog {
   width: 300px;
   height: 70px;
   cursor: pointer;
   background-color: #232222;
   padding-top: 23px;
 }
-header .down .catalog h1 {
+header .down .box .catalog h1 {
   font-size: 18px;
   color: white;
   text-align: center;
 }
-header .down .catalog h1 i {
+header .down .box .catalog h1 i {
   font-size: 25px;
   margin-right: 12px;
 }
-header .down .search {
+header .down .box .search {
   height: 50px;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
-header .down .search input {
+header .down .box .search input {
   height: 100%;
   border-radius: 7px;
   padding-left: 15px;
@@ -128,19 +133,19 @@ header .down .search input {
   width: 595px;
   border: 0;
 }
-header .down .search input::-moz-placeholder {
-  color: black;
+header .down .box .search input::-moz-placeholder {
+  color: #53595c;
 }
-header .down .search input:-ms-input-placeholder {
-  color: black;
+header .down .box .search input:-ms-input-placeholder {
+  color: #53595c;
 }
-header .down .search input::placeholder {
-  color: black;
+header .down .box .search input::placeholder {
+  color: #53595c;
 }
-header .down .search a {
+header .down .box .search a {
   text-decoration: none;
 }
-header .down .search a i {
+header .down .box .search a i {
   font-size: 25px;
   position: absolute;
   top: 25px;
@@ -148,7 +153,7 @@ header .down .search a i {
   transform: translate(-50%, -50%);
   color: black;
 }
-header .down .user {
+header .down .box .user {
   width: 270px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -157,31 +162,36 @@ header .down .user {
   justify-content: space-between;
   align-items: center;
 }
-header .down .user .account {
+header .down .box .user .account {
   width: 120px;
   color: white;
   display: flex;
   justify-content: space-between;
   text-decoration: none;
 }
-header .down .user .account i {
+header .down .box .user .account i {
   font-size: 27px;
 }
-header .down .user .account h5 {
+header .down .box .user .account h5 {
   font-size: 14px;
   margin-top: 5px;
 }
-header .down .user ul {
+header .down .box .user ul {
   width: 125px;
   display: flex;
   justify-content: space-between;
   list-style: none;
   margin-top: 16px;
 }
-header .down .user ul a {
+header .down .box .user ul a {
   text-decoration: none;
   color: white;
 }
-header .down .user ul a i {
+header .down .box .user ul a i {
   font-size: 22px;
+}
+
+#catalog-slider {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
