@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+}
+
+header .up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+header .up .box {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+header .up .box .logo-menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+header .up .box .logo-menu a {
+  text-decoration: none;
+}
+header .up .box .logo-menu a img {
+  width: 150px;
+}
+header .up .box .logo-menu .menu {
+  width: 650px;
+  padding-top: 18px;
+}
+header .up .box .logo-menu .menu ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+header .up .box .logo-menu .menu ul li:first-child a {
+  text-decoration: none;
+  color: red;
+}
+header .up .box .logo-menu .menu ul li a {
+  text-decoration: none;
+  color: #53595c;
+  font-size: 13px;
+  transition: 0.5s;
+}
+header .up .box .logo-menu .menu ul li a:hover {
+  opacity: 0.4;
+}
+header .up .box .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 7px;
+}
+header .up .box .contact a {
+  text-decoration: none;
+}
+header .up .box .contact a:first-child {
+  color: black;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+header .up .box .contact a:last-child {
+  margin-left: 40px;
+  color: black;
+}
+header .up .box .contact a:last-child span {
+  color: #53595c;
+}
+header .up .box .contact .schedule {
+  height: 100%;
+  padding-top: 13px;
+}
+header .up .box .contact .schedule h6 {
+  font-size: 10px;
+}
+header .up .box .contact .schedule h6:first-child {
+  color: #53595c;
+}
+header .up .box .contact .schedule h6:last-child {
+  font-weight: bold;
+}
+header .down {
+  height: 70px;
+  background-color: #3d3f42;
+  display: flex;
+  align-items: center;
+}
+header .down .catalog {
+  width: 300px;
+  height: 70px;
+  cursor: pointer;
+  background-color: #232222;
+  padding-top: 23px;
+}
+header .down .catalog h1 {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+header .down .catalog h1 i {
+  font-size: 25px;
+  margin-right: 12px;
+}
+header .down .search {
+  height: 50px;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+header .down .search input {
+  height: 100%;
+  border-radius: 7px;
+  padding-left: 15px;
+  outline: none;
+  width: 595px;
+  border: 0;
+}
+header .down .search input::-moz-placeholder {
+  color: black;
+}
+header .down .search input:-ms-input-placeholder {
+  color: black;
+}
+header .down .search input::placeholder {
+  color: black;
+}
+header .down .search a {
+  text-decoration: none;
+}
+header .down .search a i {
+  font-size: 25px;
+  position: absolute;
+  top: 25px;
+  right: 1px;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+header .down .user {
+  width: 270px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .down .user .account {
+  width: 120px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+header .down .user .account i {
+  font-size: 27px;
+}
+header .down .user .account h5 {
+  font-size: 14px;
+  margin-top: 5px;
+}
+header .down .user ul {
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 16px;
+}
+header .down .user ul a {
+  text-decoration: none;
+  color: white;
+}
+header .down .user ul a i {
+  font-size: 22px;
+}/*# sourceMappingURL=style.css.map */
