@@ -1,3 +1,6 @@
+$font-regular: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
 * {
     margin: 0;
     padding: 0;
@@ -24,25 +27,25 @@ header {
                 display: flex;
                 align-items: center;
                 gap: 25px;
-    
+
                 a {
                     text-decoration: none;
-                    
+
                     img {
                         width: 150px;
                     }
                 }
-    
+
                 .menu {
                     width: 650px;
                     padding-top: 18px;
-    
+
                     ul {
                         list-style: none;
                         display: flex;
                         width: 100%;
                         justify-content: space-between;
-    
+
                         li {
                             &:first-child {
                                 a {
@@ -50,14 +53,14 @@ header {
                                     color: red;
                                 }
                             }
-    
+
                             a {
                                 text-decoration: none;
                                 color: #53595c;
                                 font-size: 13px;
                                 transition: 0.5s;
                             }
-    
+
                             a:hover {
                                 opacity: 0.4;
                             }
@@ -65,23 +68,23 @@ header {
                     }
                 }
             }
-    
+
             .contact {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: 100%;
                 gap: 7px;
-    
+
                 a {
                     text-decoration: none;
-    
+
                     &:first-child {
                         color: black;
                         font-size: xx-large;
                         font-weight: bolder;
                     }
-    
+
                     &:last-child {
                         margin-left: 40px;
                         color: black;
@@ -91,20 +94,20 @@ header {
                         }
                     }
                 }
-    
+
                 .schedule {
                     height: 100%;
                     padding-top: 13px;
-    
+
                     h6 {
                         &:first-child {
                             color: #53595c;
                         }
-    
+
                         &:last-child {
                             font-weight: bold;
                         }
-    
+
                         font-size: 10px;
                     }
                 }
@@ -130,24 +133,24 @@ header {
                 cursor: pointer;
                 background-color: #232222;
                 padding-top: 23px;
-    
+
                 h1 {
                     font-size: 18px;
                     color: white;
                     text-align: center;
-    
+
                     i {
                         font-size: 25px;
                         margin-right: 12px;
                     }
                 }
             }
-    
+
             .search {
                 height: 50px;
                 position: relative;
                 width: fit-content;
-    
+
                 input {
                     height: 100%;
                     border-radius: 7px;
@@ -155,15 +158,15 @@ header {
                     outline: none;
                     width: 595px;
                     border: 0;
-                    
+
                     &::placeholder {
                         color: #53595c;
                     }
                 }
-    
+
                 a {
                     text-decoration: none;
-    
+
                     i {
                         font-size: 25px;
                         position: absolute;
@@ -174,42 +177,42 @@ header {
                     }
                 }
             }
-    
+
             .user {
                 width: 270px;
                 height: fit-content;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-    
+
                 .account {
                     width: 120px;
                     color: white;
                     display: flex;
                     justify-content: space-between;
                     text-decoration: none;
-                    
+
                     i {
                         font-size: 27px;
                     }
-                    
+
                     h5 {
                         font-size: 14px;
                         margin-top: 5px;
                     }
                 }
-    
+
                 ul {
                     width: 125px;
                     display: flex;
                     justify-content: space-between;
                     list-style: none;
                     margin-top: 16px;
-    
+
                     a {
                         text-decoration: none;
                         color: white;
-    
+
                         i {
                             font-size: 22px;
                         }
@@ -225,8 +228,74 @@ header {
     justify-content: center;
 
     .box {
-        // width: 85%;
-        // background-color: aqua;
-        // height: 200px;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            list-style: none;
+            width: 300px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+            li{
+                a {
+                    text-decoration: none;
+                    color: #53595c;
+                    display: flex;
+                    padding-left: 10px;
+                    width: 100%;
+                    justify-content: space-between;
+                    padding-top: 7px;
+                    transition: all 200ms;
+
+                    .title {
+                        display: flex;
+
+                        i {
+                            margin-right: 12px;
+                            font-size: 15px;
+                        }
+                        
+                        h5 {
+                            font-size: 15px;
+                        }
+                    }
+
+                    .arrow {
+                        margin-right: 7px;
+                    }
+
+                    &:hover {
+                        background-color: #fafafa;
+                        color: red;
+                    }
+                }
+
+                &:first-child {
+                    a {
+                        color: red;
+                        display: block;
+                        background-color: #fafafa;
+
+                        i {
+                            margin-right: 12px;
+                        }
+                    }
+                }
+
+                &:last-child {
+                    a {
+                        color: red;
+                        background-color: #fafafa;
+                    }
+                }
+            }
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        }
     }
 }

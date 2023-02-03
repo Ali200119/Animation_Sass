@@ -194,4 +194,58 @@ header .down .box .user ul a i {
 #catalog-slider {
   display: flex;
   justify-content: center;
+}
+#catalog-slider .box {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+#catalog-slider .box ul {
+  list-style: none;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#catalog-slider .box ul li a {
+  text-decoration: none;
+  color: #53595c;
+  display: flex;
+  padding-left: 10px;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 7px;
+  transition: all 200ms;
+}
+#catalog-slider .box ul li a .title {
+  display: flex;
+}
+#catalog-slider .box ul li a .title i {
+  margin-right: 12px;
+  font-size: 15px;
+}
+#catalog-slider .box ul li a .title h5 {
+  font-size: 15px;
+}
+#catalog-slider .box ul li a .arrow {
+  margin-right: 7px;
+}
+#catalog-slider .box ul li a:hover {
+  background-color: #fafafa;
+  color: red;
+}
+#catalog-slider .box ul li:first-child a {
+  color: red;
+  display: block;
+  background-color: #fafafa;
+}
+#catalog-slider .box ul li:first-child a i {
+  margin-right: 12px;
+}
+#catalog-slider .box ul li:last-child a {
+  color: red;
+  background-color: #fafafa;
+}
+#catalog-slider .box img {
+  height: 100%;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }/*# sourceMappingURL=style.css.map */

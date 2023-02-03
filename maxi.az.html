@@ -1,83 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Maxi.az</title>
 </head>
+
 <body>
     <header>
-       <div class="up">
-        <div class="box">
-            <div class="col-8">
-                <div class="logo-menu">
-                    <a href=""><img src="./assets/images/Maxi.az.png" alt="Logo"></a>
-                    <div class="menu">
+        <div class="up">
+            <div class="box">
+                <div class="col-8">
+                    <div class="logo-menu">
+                        <a href=""><img src="./assets/images/Maxi.az.png" alt="Logo" /></a>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="">%Aksiya</a></li>
+                                <li><a href="">Çatdırılma vә ödəniş</a></li>
+                                <li><a href="">Kredit</a></li>
+                                <li><a href="">Mağazalar və servis</a></li>
+                                <li><a href="">Bloq</a></li>
+                                <li><a href="">Haqqımızda</a></li>
+                                <li><a href="">Vakansiyalar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="contact">
+                        <a href="">*0900</a>
+                        <div class="schedule">
+                            <h6>Zənginizi hər gün gözləyirik</h6>
+                            <h6>9:00-dan 20:30-dək</h6>
+                        </div>
+                        <a href="">AZ <span>| RU</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="down">
+            <div class="box">
+                <div class="col-3">
+                    <div class="catalog">
+                        <h1><i class="fa-solid fa-border-all"></i> MALLARIN KATALOQU</h1>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="search">
+                        <input placeholder="Axtarış" type="text" />
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="user">
+                        <a href="" class="account">
+                            <i class="fa-regular fa-circle-user"></i>
+                            <h5>Hesaba giriş</h5>
+                        </a>
+
                         <ul>
-                            <li><a href="">%Aksiya</a></li>
-                            <li><a href="">Çatdırılma vә ödəniş</a></li>
-                            <li><a href="">Kredit</a></li>
-                            <li><a href="">Mağazalar və servis</a></li>
-                            <li><a href="">Bloq</a></li>
-                            <li><a href="">Haqqımızda</a></li>
-                            <li><a href="">Vakansiyalar</a></li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-scale-balanced"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-basket-shopping"></i></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-    
-            <div class="col-4">
-                <div class="contact">
-                    <a href="">*0900</a>
-                    <div class="schedule">
-                        <h6>Zənginizi hər gün gözləyirik</h6>
-                        <h6>9:00-dan 20:30-dək</h6>
-                    </div>
-                    <a href="">AZ <span>| RU</span></a>
-                </div>
-            </div>
-           </div>
         </div>
-
-       <div class="down">
-        <div class="box">
-            <div class="col-3">
-                <div class="catalog">
-                    <h1><i class="fa-solid fa-border-all"></i> MALLARIN KATALOQU</h1>
-                </div>
-            </div>
-    
-            <div class="col-6">
-                <div class="search">
-                    <input placeholder="Axtarış" type="text">
-                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                </div>
-            </div>
-    
-            <div class="col-3">
-                <div class="user">
-                    <a href="" class="account">
-                        <i class="fa-regular fa-circle-user"></i>
-                        <h5>Hesaba giriş</h5>
-                    </a>
-    
-                    <ul>
-                        <li><a href=""><i class="fa-solid fa-scale-balanced"></i></a></li>
-                        <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
-                        <li><a href=""><i class="fa-solid fa-basket-shopping"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-       </div>
     </header>
 
     <section id="catalog-slider">
         <div class="box">
-            <div class="catalog-slider">
+            <div class="col-3">
+                <ul>
+                    <li>
+                        <a href=""><i class="fa-solid fa-percent">
+                            </i> MAXİ endirimlər
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-signal"></i>
+                                <h5>Azercell</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                <h5>Telefonlar, planşetlәr və qadcetlər</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-tv"></i>
+                                <h5>TV və Audio</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-bath"></i>
+                                <h5>Mәişәt texnikası</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-laptop"></i>
+                                <h5>Rəqəmsal texnika</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <h5>Əyləncə və istirahət</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-camera"></i>
+                                <h5>Foto və video</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-hammer"></i>
+                                <h5>Alətlər və digər avadanlıq</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-clock"></i>
+                                <h5>Tərz və aksesuarlar</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-person-breastfeeding"></i>
+                                <h5>Uşaqlar və analar</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-car"></i>
+                                <h5>Avtomobil üçün</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-hand-holding-medical"></i>
+                                <h5>Sağlamlıq və gözəllik</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-couch"></i>
+                                <h5>Ev və bağ</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-book-open"></i>
+                                <h5>Dəftərxana, məktəb və ofis</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-utensils"></i>
+                                <h5>İçkilər və qida</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-paw"></i>
+                                <h5>Heyvanat aləmi</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="title">
+                                <i class="fa-solid fa-tags"></i>
+                                <h5>OUTLET</h5>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-9">
+                <img src="./assets/images/Promotion.png" alt="Promotion">
+            </div>
+        </div>
+    </section>
+
+    <section id="advantages">
+        <div class="box">
+            <div class="col-3">
+                <a href="">
+                    <h2>Sürətli çatdırılma</h2>
+                </a>
+            </div>
+
+            <div class="col-3">
+
+            </div>
+
+            <div class="col-3">
+
+            </div>
+
+            <div class="col-3">
 
             </div>
         </div>
