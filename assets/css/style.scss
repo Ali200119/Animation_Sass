@@ -787,7 +787,169 @@ main {
                             }
                         }
                     }
+
+                    .product {
+                        .card {
+                            height: 280px;
+                            background-color: white;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-around;
+                            border: 0;
+                            border-radius: 30px;
+
+                            img {
+                                width: 220px;
+                                height: 240px;
+                            }
+
+                            .details {
+                                height: 230px;
+                                width: fit-content;
+
+                                .title {
+                                    text-decoration: none;
+                                    color: black;
+                                }
+
+                                .rating {
+                                    display: flex;
+                                    margin-top: 12px;
+                
+                                    .stars {
+                                        display: flex;
+                                        gap: 4px;
+                
+                                        i {
+                                            color: #eaeaea;
+                                            cursor: pointer;
+                                        }
+                                    }
+                
+                                    .count {
+                                        margin-left: 10px;
+                                        color: #85898b;
+                                        font-size: 13px;
+                                    }
+                                }
+
+                                .price {
+                                    display: flex;
+                                    align-items: center;
+                                    width: fit-content;
+                                    color: #ec2128;
+                                    margin-top: 24px;
+                                    
+                                    span {
+                                        font-weight: bold;
+                                        font-size: 25px;
+                                    }
+
+                                    i {
+                                        margin-left: 8px;
+                                    }
+                                }
+
+                                .credit {
+                                    margin-top: 12px;
+                                    
+                                    a {
+                                        text-decoration: none;
+                                        font-size: 13px;
+                                        display: block;
+                                        
+                                        .clock-icon {
+                                            color: #fd6a01;
+                                        }
+                
+                                        span {
+                                            color: #5d6365;
+                                            border-bottom: 1px dotted #5d6365;
+                                        }
+                                    }
+                                }
+
+                                .order {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    width: 240px;
+                                    margin-top: 15px;
+
+                                    a {
+                                        &:first-child {
+                                            text-decoration: none;
+                                            border-radius: 5px;
+                                            width: 130px;
+                                            height: 50px;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background-color: #ec2128;
+                                            color: white;
+                                            font-weight: bold;
+                                        }
+
+                                        &:last-child {
+                                            border-bottom: 1px dotted #53595c;
+                                            color: #53595c;
+                                            text-decoration: none;
+                                            height: fit-content;
+                                            font-size: 14px;
+                                            margin-top: 10px;
+
+                                            &:hover {
+                                                color: black;
+                                                text-decoration: none;
+                                                border: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .point {
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 20px;
+
+                            a {
+                                text-decoration: none;
+                                width: 12px;
+                                height: 12px;
+                                background-color: white;
+                                border-radius: 50%;
+                            }
+                        }
+                    }
                 }
+            }
+        }
+    }
+}
+
+#brands {
+    @include section();
+    margin-top: 100px;
+
+    .box {
+        @include box();
+
+        .circle {
+            height: 210px;
+            width: 85%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #ededee;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
             }
         }
     }
